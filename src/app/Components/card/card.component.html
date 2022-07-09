@@ -1,0 +1,14 @@
+<div class="card">
+  <img class="img-fluid" [src]="dataEntranteCard?.img" alt="">
+  <div class="wrapper-text">
+    <div class="titte">
+      {{dataEntranteCard?.title}}
+    </div>
+    <div class="sub-title">
+      {{dataEntranteCard?.subtitle}}
+    </div>
+  </div>
+  <div>
+    <button class="btn btn-primary" (click)="agregarFavorito()">Add favorite</button>
+  </div>
+</div>
